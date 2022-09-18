@@ -1,0 +1,166 @@
+body {
+    font-family: 'Macondo', cursive;
+    color: black;
+}
+
+.container-fluid {
+    padding: 1% 15% 5%;
+}
+
+
+/* nav bar */
+.navbar-brand {
+    padding: 2px 37px;
+}
+/* Download-button */
+.Download-button {
+    margin: 5% 3% 7% 2%;
+}
+/* title section */
+#title {
+    background-color: crimson;
+    padding-bottom: 50px;
+
+
+}
+
+.title-h1 {
+    font-family: 'Macondo', cursive;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+/* title image */
+.title-image {
+    padding-left: 15%;
+    /* margin-bottom:25%; */
+    /* margin-top:0%; */
+    padding-bottom: 0%;
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    /* left:10%;
+     top:-30%; */
+
+
+
+}
+
+
+.row {
+    padding: 30px;
+}
+
+/* feature section */
+#feature {
+    padding-left: 1000px;
+    /* background-color:yellow; */
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+    background-color: white;
+    position: relative;
+}
+
+.icon {
+    color: crimson;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    /* background-color:pink; */
+    transform: scale(0.9);
+    color: brown;
+}
+
+/* testimonial section */
+
+#testimonials {
+    padding-top: 1px;
+    /* margin:5% 3% 7% 2%; */
+    text-align: center;
+    background-color: crimson;
+}
+
+.testimonial-image {
+    padding-bottom: 6%;
+    border-radius: 100%;
+    width: 10%
+}
+
+.testimonials-text {
+    color: #fff;
+    -webkit-text-size-adjust: 2%;
+    margin: 5%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+
+/* press section */
+#press {
+    background-color: crimson;
+    text-align: center;
+
+}
+
+.press-logo {
+    width: 20%;
+
+    padding: 10px;
+
+}
+
+
+/* pricing section */
+#pricing {
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:102) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta section */
+#cta{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+   
+    
+}
+.container{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+/* footer section */
+#footer{
+    background-color: #fff;
+    text-align: center;
+
+}
+.cta-heading{
+    font-size:3.5rem;
+    line-height: 1.5rem;
+}
